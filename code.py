@@ -14,4 +14,6 @@ args = parser.parse_args()
 
 # function for division -<TBD>
 
-# function for multiplication -<TBD>
+# function for multiplication
+def mul(x=args.x, y=args.y):
+    return x * y
