@@ -12,6 +12,12 @@ args = parser.parse_args()
 
 # function for subtraction -<TBD>
 
-# function for division -<TBD>
+# function for division
+def div(x=args.x, y=args.y):
+    if y==0:
+        print("Can't divide by zero")
+        return None
+    else:
+        return x/y
 
 # function for multiplication -<TBD>
