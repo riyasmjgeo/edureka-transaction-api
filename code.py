@@ -9,9 +9,13 @@ parser.add_argument("y", type=float, help="Value of Y")
 args = parser.parse_args()
 
 # function for addition -<TBD>
-
+def add(x=args.x, y=args.y):
+    return x+y
 # function for subtraction -<TBD>
 
 # function for division -<TBD>
 
 # function for multiplication -<TBD>
+
+result = eval(f"{args.action}()")
+print(f"The action {args.action} between {args.x} and {args.y} resulted in {result}")
