@@ -10,7 +10,9 @@ args = parser.parse_args()
 
 # function for addition -<TBD>
 
-# function for subtraction -<TBD>
+# function for subtraction
+def sub(x=args.x, y=args.y):
+    return x - y
 
 # function for division -<TBD>
 
