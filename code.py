@@ -12,7 +12,9 @@ args = parser.parse_args()
 def add(x=args.x, y=args.y):
     return x+y
 
-# function for subtraction -<TBD>
+# function for subtraction
+def sub(x=args.x, y=args.y):
+    return x - y
 
 # function for division
 def div(x=args.x, y=args.y):
