@@ -8,9 +8,10 @@ parser.add_argument("x", type=float, help="Value of X")
 parser.add_argument("y", type=float, help="Value of Y")
 args = parser.parse_args()
 
-# function for addition -<TBD>
+# function for addition
 def add(x=args.x, y=args.y):
     return x+y
+
 # function for subtraction -<TBD>
 
 # function for division -<TBD>
