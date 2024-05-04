@@ -27,3 +27,7 @@ def div(x=args.x, y=args.y):
 # function for multiplication
 def mul(x=args.x, y=args.y):
     return x * y
+
+
+result = eval(f"{args.operation}()")
+print(f"The action {args.operation} between {args.x} and {args.y} resulted in {result}")
